@@ -1,0 +1,98 @@
+[
+  {
+    "id": "M001",
+    "name": "Nguyen Van An",
+    "tier": "student",
+    "max_loans": 3,
+    "current_loans": ["B001"],
+    "outstanding_fine": 0
+  },
+  {
+    "id": "M002",
+    "name": "Tran Thi Binh",
+    "tier": "standard",
+    "max_loans": 5,
+    "current_loans": ["B004", "B006", "B008", "B009", "B010"],
+    "outstanding_fine": 0
+  },
+  {
+    "id": "M003",
+    "name": "Le Hoang Cuong",
+    "tier": "premium",
+    "max_loans": 10,
+    "current_loans": ["B031"],
+    "outstanding_fine": 0
+  },
+  {
+    "id": "M004",
+    "name": "Pham Minh Duc",
+    "tier": "student",
+    "max_loans": 3,
+    "current_loans": ["B003", "B005"],
+    "outstanding_fine": 45000
+  },
+  {
+    "id": "M005",
+    "name": "Hoang Thi Em",
+    "tier": "standard",
+    "max_loans": 5,
+    "current_loans": [],
+    "outstanding_fine": 0
+  },
+  {
+    "id": "M006",
+    "name": "Vo Van Phong",
+    "tier": "premium",
+    "max_loans": 10,
+    "current_loans": ["B007", "B012", "B015"],
+    "outstanding_fine": 12000
+  },
+  {
+    "id": "M007",
+    "name": "Dang Thu Giang",
+    "tier": "student",
+    "max_loans": 3,
+    "current_loans": ["B020", "B021", "B022"],
+    "outstanding_fine": 0
+  },
+  {
+    "id": "M008",
+    "name": "Bui Quang Huy",
+    "tier": "standard",
+    "max_loans": 5,
+    "current_loans": ["B040"],
+    "outstanding_fine": 0
+  },
+  {
+    "id": "M009",
+    "name": "Do Thi Lan",
+    "tier": "premium",
+    "max_loans": 10,
+    "current_loans": [],
+    "outstanding_fine": 0
+  },
+  {
+    "id": "M010",
+    "name": "Ngo Van Minh",
+    "tier": "student",
+    "max_loans": 3,
+    "current_loans": ["B050"],
+    "outstanding_fine": 60000
+  },
+  {
+    "id": "M011",
+    "name": "Duong Thi Nga",
+    "tier": "standard",
+    "max_loans": 5,
+    "current_loans": ["B060", "B061"],
+    "outstanding_fine": 0
+  },
+  {
+    "id": "M012",
+    "name": "Phan Van Quoc",
+    "tier": "premium",
+    "max_loans": 10,
+    "current_loans": ["B070", "B071", "B072", "B073"],
+    "outstanding_fine": 0
+  }
+]
