@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "B001",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "total_copies": 7,
+    "available_copies": 1,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B002",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "total_copies": 7,
+    "available_copies": 4,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B003",
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "total_copies": 3,
+    "available_copies": 1,
+    "late_fee_per_day": 6000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B004",
+    "title": "Design Patterns",
+    "author": "Gamma, Helm, Johnson, Vlissides",
+    "total_copies": 2,
+    "available_copies": 2,
+    "late_fee_per_day": 6000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B005",
+    "title": "Code Complete",
+    "author": "Steve McConnell",
+    "total_copies": 6,
+    "available_copies": 0,
+    "late_fee_per_day": 6000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B006",
+    "title": "The Mythical Man-Month",
+    "author": "Frederick P. Brooks Jr.",
+    "total_copies": 5,
+    "available_copies": 0,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B007",
+    "title": "Clean Architecture",
+    "author": "Robert C. Martin",
+    "total_copies": 2,
+    "available_copies": 0,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B008",
+    "title": "Working Effectively with Legacy Code",
+    "author": "Michael Feathers",
+    "total_copies": 6,
+    "available_copies": 4,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B009",
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "total_copies": 6,
+    "available_copies": 1,
+    "late_fee_per_day": 6000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B010",
+    "title": "Patterns of Enterprise Application Architecture",
+    "author": "Martin Fowler",
+    "total_copies": 7,
+    "available_copies": 6,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B011",
+    "title": "The Clean Coder",
+    "author": "Robert C. Martin",
+    "total_copies": 5,
+    "available_copies": 4,
+    "late_fee_per_day": 5000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B012",
+    "title": "Release It!",
+    "author": "Michael T. Nygard",
+    "total_copies": 8,
+    "available_copies": 0,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B013",
+    "title": "Continuous Delivery",
+    "author": "Jez Humble, David Farley",
+    "total_copies": 7,
+    "available_copies": 6,
+    "late_fee_per_day": 5000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B014",
+    "title": "The Phoenix Project",
+    "author": "Gene Kim, Kevin Behr, George Spafford",
+    "total_copies": 4,
+    "available_copies": 1,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B015",
+    "title": "Accelerate",
+    "author": "Nicole Forsgren, Jez Humble, Gene Kim",
+    "total_copies": 8,
+    "available_copies": 5,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B016",
+    "title": "Software Engineering at Google",
+    "author": "Titus Winters, Tom Manshreck, Hyrum Wright",
+    "total_copies": 2,
+    "available_copies": 1,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B017",
+    "title": "A Philosophy of Software Design",
+    "author": "John Ousterhout",
+    "total_copies": 4,
+    "available_copies": 2,
+    "late_fee_per_day": 6000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B018",
+    "title": "Head First Design Patterns",
+    "author": "Eric Freeman, Elisabeth Robson",
+    "total_copies": 4,
+    "available_copies": 0,
+    "late_fee_per_day": 6000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B019",
+    "title": "Test-Driven Development by Example",
+    "author": "Kent Beck",
+    "total_copies": 5,
+    "available_copies": 4,
+    "late_fee_per_day": 4000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B020",
+    "title": "Extreme Programming Explained",
+    "author": "Kent Beck",
+    "total_copies": 5,
+    "available_copies": 0,
+    "late_fee_per_day": 6000,
+    "category": "Software Engineering"
+  },
+  {
+    "id": "B021",
+    "title": "Structure and Interpretation of Computer Programs",
+    "author": "Harold Abelson, Gerald Jay Sussman",
+    "total_copies": 4,
+    "available_copies": 4,
+    "late_fee_per_day": 7000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B022",
+    "title": "The Art of Computer Programming",
+    "author": "Donald E. Knuth",
+    "total_copies": 6,
+    "available_copies": 1,
+    "late_fee_per_day": 8000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B023",
+    "title": "Computer Systems: A Programmer's Perspective",
+    "author": "Randal Bryant, David O'Hallaron",
+    "total_copies": 2,
+    "available_copies": 0,
+    "late_fee_per_day": 8000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B024",
+    "title": "Operating System Concepts",
+    "author": "Abraham Silberschatz, Peter Galvin, Greg Gagne",
+    "total_copies": 3,
+    "available_copies": 2,
+    "late_fee_per_day": 6000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B025",
+    "title": "Modern Operating Systems",
+    "author": "Andrew S. Tanenbaum",
+    "total_copies": 8,
+    "available_copies": 3,
+    "late_fee_per_day": 6000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B026",
+    "title": "Computer Networks",
+    "author": "Andrew S. Tanenbaum",
+    "total_copies": 5,
+    "available_copies": 2,
+    "late_fee_per_day": 7000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B027",
+    "title": "Computer Organization and Design",
+    "author": "David Patterson, John Hennessy",
+    "total_copies": 7,
+    "available_copies": 5,
+    "late_fee_per_day": 6000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B028",
+    "title": "Compilers: Principles, Techniques, and Tools",
+    "author": "Aho, Lam, Sethi, Ullman",
+    "total_copies": 4,
+    "available_copies": 2,
+    "late_fee_per_day": 6000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B029",
+    "title": "Introduction to the Theory of Computation",
+    "author": "Michael Sipser",
+    "total_copies": 7,
+    "available_copies": 4,
+    "late_fee_per_day": 8000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B030",
+    "title": "Operating Systems: Three Easy Pieces",
+    "author": "Remzi Arpaci-Dusseau, Andrea Arpaci-Dusseau",
+    "total_copies": 7,
+    "available_copies": 1,
+    "late_fee_per_day": 8000,
+    "category": "Computer Science"
+  },
+  {
+    "id": "B031",
+    "title": "Introduction to Algorithms",
+    "author": "Cormen, Leiserson, Rivest, Stein",
+    "total_copies": 7,
+    "available_copies": 2,
+    "late_fee_per_day": 9000,
+    "category": "Algorithms"
+  },
+  {
+    "id": "B032",
+    "title": "Algorithms",
+    "author": "Robert Sedgewick, Kevin Wayne",
+    "total_copies": 7,
+    "available_copies": 3,
+    "late_fee_per_day": 7000,
+    "category": "Algorithms"
+  },
+  {
+    "id": "B033",
+    "title": "The Algorithm Design Manual",
+    "author": "Steven Skiena",
+    "total_copies": 5,
+    "available_copies": 3,
+    "late_fee_per_day": 8000,
+    "category": "Algorithms"
+  },
+  {
+    "id": "B034",
+    "title": "Algorithm Design",
+    "author": "Jon Kleinberg, Eva Tardos",
+    "total_copies": 7,
+    "available_copies": 3,
+    "late_fee_per_day": 9000,
+    "category": "Algorithms"
+  },
+  {
+    "id": "B035",
+    "title": "Grokking Algorithms",
+    "author": "Aditya Bhargava",
+    "total_copies": 4,
+    "available_copies": 0,
+    "late_fee_per_day": 7000,
+    "category": "Algorithms"
+  },
+  {
+    "id": "B036",
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "total_copies": 8,
+    "available_copies": 0,
+    "late_fee_per_day": 8000,
+    "category": "Algorithms"
+  },
+  {
+    "id": "B037",
+    "title": "Programming Pearls",
+    "author": "Jon Bentley",
+    "total_copies": 5,
+    "available_copies": 2,
+    "late_fee_per_day": 7000,
+    "category": "Algorithms"
+  },
+  {
+    "id": "B038",
+    "title": "Competitive Programming",
+    "author": "Steven Halim, Felix Halim",
+    "total_copies": 3,
+    "available_copies": 2,
+    "late_fee_per_day": 7000,
+    "category": "Algorithms"
+  },
+  {
+    "id": "B039",
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "total_copies": 7,
+    "available_copies": 7,
+    "late_fee_per_day": 4000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B040",
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "total_copies": 7,
+    "available_copies": 7,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B041",
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "total_copies": 4,
+    "available_copies": 1,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B042",
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "total_copies": 7,
+    "available_copies": 4,
+    "late_fee_per_day": 5000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B043",
+    "title": "Java Concurrency in Practice",
+    "author": "Brian Goetz",
+    "total_copies": 6,
+    "available_copies": 3,
+    "late_fee_per_day": 5000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B044",
+    "title": "Effective C++",
+    "author": "Scott Meyers",
+    "total_copies": 5,
+    "available_copies": 2,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B045",
+    "title": "The C Programming Language",
+    "author": "Brian Kernighan, Dennis Ritchie",
+    "total_copies": 3,
+    "available_copies": 3,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B046",
+    "title": "The C++ Programming Language",
+    "author": "Bjarne Stroustrup",
+    "total_copies": 8,
+    "available_copies": 0,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B047",
+    "title": "Programming Rust",
+    "author": "Jim Blandy, Jason Orendorff",
+    "total_copies": 3,
+    "available_copies": 1,
+    "late_fee_per_day": 5000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B048",
+    "title": "The Rust Programming Language",
+    "author": "Steve Klabnik, Carol Nichols",
+    "total_copies": 5,
+    "available_copies": 4,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B049",
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho",
+    "total_copies": 5,
+    "available_copies": 3,
+    "late_fee_per_day": 5000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B050",
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "total_copies": 5,
+    "available_copies": 4,
+    "late_fee_per_day": 4000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B051",
+    "title": "Effective Python",
+    "author": "Brett Slatkin",
+    "total_copies": 6,
+    "available_copies": 6,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B052",
+    "title": "Learning Python",
+    "author": "Mark Lutz",
+    "total_copies": 7,
+    "available_copies": 1,
+    "late_fee_per_day": 5000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B053",
+    "title": "The Go Programming Language",
+    "author": "Alan Donovan, Brian Kernighan",
+    "total_copies": 6,
+    "available_copies": 6,
+    "late_fee_per_day": 4000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B054",
+    "title": "Programming Elixir",
+    "author": "Dave Thomas",
+    "total_copies": 8,
+    "available_copies": 5,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B055",
+    "title": "Land of Lisp",
+    "author": "Conrad Barski",
+    "total_copies": 4,
+    "available_copies": 3,
+    "late_fee_per_day": 3000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B056",
+    "title": "The Little Schemer",
+    "author": "Daniel Friedman, Matthias Felleisen",
+    "total_copies": 5,
+    "available_copies": 0,
+    "late_fee_per_day": 5000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B057",
+    "title": "Programming Ruby",
+    "author": "Dave Thomas, Andy Hunt, Chad Fowler",
+    "total_copies": 7,
+    "available_copies": 4,
+    "late_fee_per_day": 5000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B058",
+    "title": "Kotlin in Action",
+    "author": "Dmitry Jemerov, Svetlana Isakova",
+    "total_copies": 8,
+    "available_copies": 2,
+    "late_fee_per_day": 5000,
+    "category": "Programming Languages"
+  },
+  {
+    "id": "B059",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "author": "Stuart Russell, Peter Norvig",
+    "total_copies": 2,
+    "available_copies": 2,
+    "late_fee_per_day": 9000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B060",
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "total_copies": 8,
+    "available_copies": 8,
+    "late_fee_per_day": 10000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B061",
+    "title": "Pattern Recognition and Machine Learning",
+    "author": "Christopher Bishop",
+    "total_copies": 3,
+    "available_copies": 1,
+    "late_fee_per_day": 9000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B062",
+    "title": "The Elements of Statistical Learning",
+    "author": "Hastie, Tibshirani, Friedman",
+    "total_copies": 8,
+    "available_copies": 2,
+    "late_fee_per_day": 10000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B063",
+    "title": "Hands-On Machine Learning",
+    "author": "Aurelien Geron",
+    "total_copies": 8,
+    "available_copies": 8,
+    "late_fee_per_day": 8000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B064",
+    "title": "Machine Learning",
+    "author": "Tom Mitchell",
+    "total_copies": 6,
+    "available_copies": 2,
+    "late_fee_per_day": 9000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B065",
+    "title": "Reinforcement Learning: An Introduction",
+    "author": "Richard Sutton, Andrew Barto",
+    "total_copies": 2,
+    "available_copies": 0,
+    "late_fee_per_day": 9000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B066",
+    "title": "Deep Learning with Python",
+    "author": "Francois Chollet",
+    "total_copies": 8,
+    "available_copies": 4,
+    "late_fee_per_day": 8000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B067",
+    "title": "Grokking Deep Learning",
+    "author": "Andrew Trask",
+    "total_copies": 2,
+    "available_copies": 0,
+    "late_fee_per_day": 10000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B068",
+    "title": "Speech and Language Processing",
+    "author": "Daniel Jurafsky, James Martin",
+    "total_copies": 2,
+    "available_copies": 0,
+    "late_fee_per_day": 10000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B069",
+    "title": "Probabilistic Machine Learning",
+    "author": "Kevin Murphy",
+    "total_copies": 5,
+    "available_copies": 0,
+    "late_fee_per_day": 10000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B070",
+    "title": "Dive into Deep Learning",
+    "author": "Aston Zhang, Zachary Lipton, Mu Li",
+    "total_copies": 8,
+    "available_copies": 2,
+    "late_fee_per_day": 8000,
+    "category": "AI & Machine Learning"
+  },
+  {
+    "id": "B071",
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "total_copies": 7,
+    "available_copies": 7,
+    "late_fee_per_day": 8000,
+    "category": "Data"
+  },
+  {
+    "id": "B072",
+    "title": "Database System Concepts",
+    "author": "Silberschatz, Korth, Sudarshan",
+    "total_copies": 3,
+    "available_copies": 2,
+    "late_fee_per_day": 8000,
+    "category": "Data"
+  },
+  {
+    "id": "B073",
+    "title": "SQL Performance Explained",
+    "author": "Markus Winand",
+    "total_copies": 8,
+    "available_copies": 6,
+    "late_fee_per_day": 6000,
+    "category": "Data"
+  },
+  {
+    "id": "B074",
+    "title": "Big Data",
+    "author": "Nathan Marz, James Warren",
+    "total_copies": 6,
+    "available_copies": 6,
+    "late_fee_per_day": 8000,
+    "category": "Data"
+  },
+  {
+    "id": "B075",
+    "title": "Data Science from Scratch",
+    "author": "Joel Grus",
+    "total_copies": 7,
+    "available_copies": 3,
+    "late_fee_per_day": 8000,
+    "category": "Data"
+  },
+  {
+    "id": "B076",
+    "title": "Python for Data Analysis",
+    "author": "Wes McKinney",
+    "total_copies": 4,
+    "available_copies": 3,
+    "late_fee_per_day": 8000,
+    "category": "Data"
+  },
+  {
+    "id": "B077",
+    "title": "Storytelling with Data",
+    "author": "Cole Nussbaumer Knaflic",
+    "total_copies": 7,
+    "available_copies": 5,
+    "late_fee_per_day": 7000,
+    "category": "Data"
+  },
+  {
+    "id": "B078",
+    "title": "The Data Warehouse Toolkit",
+    "author": "Ralph Kimball, Margy Ross",
+    "total_copies": 6,
+    "available_copies": 3,
+    "late_fee_per_day": 6000,
+    "category": "Data"
+  },
+  {
+    "id": "B079",
+    "title": "The Web Application Hacker's Handbook",
+    "author": "Dafydd Stuttard, Marcus Pinto",
+    "total_copies": 3,
+    "available_copies": 1,
+    "late_fee_per_day": 7000,
+    "category": "Security"
+  },
+  {
+    "id": "B080",
+    "title": "Hacking: The Art of Exploitation",
+    "author": "Jon Erickson",
+    "total_copies": 4,
+    "available_copies": 0,
+    "late_fee_per_day": 9000,
+    "category": "Security"
+  },
+  {
+    "id": "B081",
+    "title": "Applied Cryptography",
+    "author": "Bruce Schneier",
+    "total_copies": 6,
+    "available_copies": 1,
+    "late_fee_per_day": 9000,
+    "category": "Security"
+  },
+  {
+    "id": "B082",
+    "title": "Security Engineering",
+    "author": "Ross Anderson",
+    "total_copies": 3,
+    "available_copies": 0,
+    "late_fee_per_day": 7000,
+    "category": "Security"
+  },
+  {
+    "id": "B083",
+    "title": "The Tangled Web",
+    "author": "Michal Zalewski",
+    "total_copies": 7,
+    "available_copies": 0,
+    "late_fee_per_day": 7000,
+    "category": "Security"
+  },
+  {
+    "id": "B084",
+    "title": "Practical Malware Analysis",
+    "author": "Michael Sikorski, Andrew Honig",
+    "total_copies": 2,
+    "available_copies": 0,
+    "late_fee_per_day": 8000,
+    "category": "Security"
+  },
+  {
+    "id": "B085",
+    "title": "Cryptography Engineering",
+    "author": "Ferguson, Schneier, Kohno",
+    "total_copies": 2,
+    "available_copies": 2,
+    "late_fee_per_day": 7000,
+    "category": "Security"
+  },
+  {
+    "id": "B086",
+    "title": "TCP/IP Illustrated",
+    "author": "W. Richard Stevens",
+    "total_copies": 4,
+    "available_copies": 3,
+    "late_fee_per_day": 6000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B087",
+    "title": "Unix Network Programming",
+    "author": "W. Richard Stevens",
+    "total_copies": 6,
+    "available_copies": 1,
+    "late_fee_per_day": 8000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B088",
+    "title": "The Linux Programming Interface",
+    "author": "Michael Kerrisk",
+    "total_copies": 6,
+    "available_copies": 4,
+    "late_fee_per_day": 7000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B089",
+    "title": "Site Reliability Engineering",
+    "author": "Beyer, Jones, Petoff, Murphy",
+    "total_copies": 3,
+    "available_copies": 3,
+    "late_fee_per_day": 7000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B090",
+    "title": "Kubernetes Up & Running",
+    "author": "Kelsey Hightower, Brendan Burns, Joe Beda",
+    "total_copies": 3,
+    "available_copies": 0,
+    "late_fee_per_day": 6000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B091",
+    "title": "Docker Deep Dive",
+    "author": "Nigel Poulton",
+    "total_copies": 7,
+    "available_copies": 6,
+    "late_fee_per_day": 7000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B092",
+    "title": "The DevOps Handbook",
+    "author": "Gene Kim, Jez Humble, Patrick Debois",
+    "total_copies": 5,
+    "available_copies": 3,
+    "late_fee_per_day": 7000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B093",
+    "title": "Linux Kernel Development",
+    "author": "Robert Love",
+    "total_copies": 8,
+    "available_copies": 0,
+    "late_fee_per_day": 8000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B094",
+    "title": "Systems Performance",
+    "author": "Brendan Gregg",
+    "total_copies": 7,
+    "available_copies": 1,
+    "late_fee_per_day": 6000,
+    "category": "Systems & Networking"
+  },
+  {
+    "id": "B095",
+    "title": "Concrete Mathematics",
+    "author": "Graham, Knuth, Patashnik",
+    "total_copies": 5,
+    "available_copies": 5,
+    "late_fee_per_day": 6000,
+    "category": "Mathematics"
+  },
+  {
+    "id": "B096",
+    "title": "Linear Algebra Done Right",
+    "author": "Sheldon Axler",
+    "total_copies": 8,
+    "available_copies": 1,
+    "late_fee_per_day": 5000,
+    "category": "Mathematics"
+  },
+  {
+    "id": "B097",
+    "title": "Mathematics for Machine Learning",
+    "author": "Deisenroth, Faisal, Ong",
+    "total_copies": 3,
+    "available_copies": 1,
+    "late_fee_per_day": 7000,
+    "category": "Mathematics"
+  },
+  {
+    "id": "B098",
+    "title": "How to Prove It",
+    "author": "Daniel Velleman",
+    "total_copies": 5,
+    "available_copies": 1,
+    "late_fee_per_day": 6000,
+    "category": "Mathematics"
+  },
+  {
+    "id": "B099",
+    "title": "Discrete Mathematics and Its Applications",
+    "author": "Kenneth Rosen",
+    "total_copies": 3,
+    "available_copies": 2,
+    "late_fee_per_day": 6000,
+    "category": "Mathematics"
+  },
+  {
+    "id": "B100",
+    "title": "Calculus",
+    "author": "Michael Spivak",
+    "total_copies": 3,
+    "available_copies": 0,
+    "late_fee_per_day": 6000,
+    "category": "Mathematics"
+  },
+  {
+    "id": "B101",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "total_copies": 8,
+    "available_copies": 8,
+    "late_fee_per_day": 3000,
+    "category": "Business & Product"
+  },
+  {
+    "id": "B102",
+    "title": "Inspired",
+    "author": "Marty Cagan",
+    "total_copies": 2,
+    "available_copies": 2,
+    "late_fee_per_day": 3000,
+    "category": "Business & Product"
+  },
+  {
+    "id": "B103",
+    "title": "Hooked",
+    "author": "Nir Eyal",
+    "total_copies": 2,
+    "available_copies": 0,
+    "late_fee_per_day": 3000,
+    "category": "Business & Product"
+  },
+  {
+    "id": "B104",
+    "title": "Zero to One",
+    "author": "Peter Thiel, Blake Masters",
+    "total_copies": 5,
+    "available_copies": 3,
+    "late_fee_per_day": 4000,
+    "category": "Business & Product"
+  },
+  {
+    "id": "B105",
+    "title": "The Hard Thing About Hard Things",
+    "author": "Ben Horowitz",
+    "total_copies": 3,
+    "available_copies": 3,
+    "late_fee_per_day": 3000,
+    "category": "Business & Product"
+  },
+  {
+    "id": "B106",
+    "title": "Crossing the Chasm",
+    "author": "Geoffrey Moore",
+    "total_copies": 3,
+    "available_copies": 3,
+    "late_fee_per_day": 3000,
+    "category": "Business & Product"
+  },
+  {
+    "id": "B107",
+    "title": "Godel, Escher, Bach",
+    "author": "Douglas Hofstadter",
+    "total_copies": 5,
+    "available_copies": 2,
+    "late_fee_per_day": 4000,
+    "category": "General & History"
+  },
+  {
+    "id": "B108",
+    "title": "The Soul of a New Machine",
+    "author": "Tracy Kidder",
+    "total_copies": 4,
+    "available_copies": 3,
+    "late_fee_per_day": 5000,
+    "category": "General & History"
+  },
+  {
+    "id": "B109",
+    "title": "Hackers",
+    "author": "Steven Levy",
+    "total_copies": 7,
+    "available_copies": 7,
+    "late_fee_per_day": 3000,
+    "category": "General & History"
+  },
+  {
+    "id": "B110",
+    "title": "The Code Book",
+    "author": "Simon Singh",
+    "total_copies": 3,
+    "available_copies": 2,
+    "late_fee_per_day": 3000,
+    "category": "General & History"
+  },
+  {
+    "id": "B111",
+    "title": "Coders at Work",
+    "author": "Peter Seibel",
+    "total_copies": 2,
+    "available_copies": 2,
+    "late_fee_per_day": 5000,
+    "category": "General & History"
+  },
+  {
+    "id": "B112",
+    "title": "The Innovators",
+    "author": "Walter Isaacson",
+    "total_copies": 6,
+    "available_copies": 0,
+    "late_fee_per_day": 5000,
+    "category": "General & History"
+  },
+  {
+    "id": "B113",
+    "title": "The Pragmatic Thinking and Learning",
+    "author": "Andy Hunt",
+    "total_copies": 4,
+    "available_copies": 0,
+    "late_fee_per_day": 3000,
+    "category": "General & History"
+  },
+  {
+    "id": "B114",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "total_copies": 6,
+    "available_copies": 3,
+    "late_fee_per_day": 5000,
+    "category": "General & History"
+  }
+]
