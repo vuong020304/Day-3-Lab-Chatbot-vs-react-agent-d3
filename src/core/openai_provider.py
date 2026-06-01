@@ -1,14 +1,20 @@
+import os
 import time
 from typing import Dict, Any, Optional, Generator
 from openai import OpenAI
 from src.core.llm_provider import LLMProvider
 
 class OpenAIProvider(LLMProvider):
-    def __init__(self, model_name: str = "gpt-4o", api_key: Optional[str] = None):
+    def __init__(self, model_name: str = "gpt-4o", api_key: Optional[str] = None,
+                 base_url: Optional[str] = None):
         super().__init__(model_name, api_key)
-        self.client = OpenAI(api_key=self.api_key)
+        # base_url cho phép trỏ tới endpoint OpenAI-compatible (vd: local server).
+        # Nếu không truyền, đọc từ OPENAI_BASE_URL; rỗng -> dùng API OpenAI mặc định.
+        base_url = base_url or os.getenv("OPENAI_BASE_URL") or None
+        self.client = OpenAI(api_key=self.api_key, base_url=base_url)
 
-    def generate(self, prompt: str, system_prompt: Optional[str] = None) -> Dict[str, Any]:
+    def generate(self, prompt: str, system_prompt: Optional[str] = None,
+                 stop: Optional[list] = None) -> Dict[str, Any]:
         start_time = time.time()
         
         messages = []
@@ -19,6 +25,7 @@ class OpenAIProvider(LLMProvider):
         response = self.client.chat.completions.create(
             model=self.model_name,
             messages=messages,
+            stop=stop,
         )
 
         end_time = time.time()
