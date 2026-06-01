@@ -77,3 +77,72 @@ Thiếu thì tạo file rỗng để import "from src.core..." chạy được.
 
 ## Thứ tự thực thi
 dataset -> tools -> agent -> chatbot -> main -> verify
+
+---
+
+# PLAN v2 (DA TRIEN KHAI): Library Q&A System - da thuc the + RAG
+
+## Ly do nang cap
+3 tool ban dau (search/availability/late_fee) deu tat dinh -> co the viet
+ham thuan, khong can agent. Bo sung du lieu phi cau truc + da thuc the de
+agent THUC SU phai dieu phoi nhieu tool + suy luan.
+
+## Datasets (data/)
+- books.json    : 114 cuon, them topics/level/year/pages/rating/description
+- members.json  : 12 thanh vien (tier, max_loans, current_loans, outstanding_fine)
+- loans.json    : 22 ban ghi muon (loan_id, member_id, book_id, due_date, returned)
+- policies.md   : knowledge base 8 muc chinh sach (cho RAG)
+- generate_books.py : generator seed=42, tai lap duoc
+
+## Tools (9 tong cong) - src/tools/library_tools.py
+Co ban (tat dinh):
+  1. search_book(title)
+  2. check_availability(title)
+  3. calculate_late_fee(title, days)
+Nang cao (can agent dieu phoi / suy luan):
+  4. semantic_search(query)          - khop token title/topics/description
+  5. recommend_books(topic, level)   - loc + xep hang theo rating
+  6. get_member(member_id|ten)       - tra thuc the thanh vien (kem ten sach)
+  7. check_borrow_eligibility(mid, title) - ghep han muc + no phi + ton kho
+  8. get_policy(topic)               - RAG tren policies.md
+  9. get_loan_status(title)          - ai dang muon + han tra (tu loans.json)
+Khong them dependency: semantic search dung token-overlap thuan Python.
+
+## TEST_QUESTIONS (main.py) - 5 cau phu kin nang luc
+1. Tac gia Clean Code?           (don gian)
+2. Clean Code con + phi tre 7 ngay? (multi-step: 2 tool)
+3. M002 muon them Refactoring?   (da thuc the: eligibility)
+4. Goi y sach thuat toan de?     (semantic/recommend)
+5. Lam mat sach xu ly the nao?   (RAG policy)
+
+## Ket qua verify (doi chieu log, khong tin loi agent)
+- Moi Final Answer cua agent deu khop Observation that trong log.
+- Bug bia so o Q2 (28,000 VND) da het sau khi them stop=["Observation:"]
+  cho OpenAIProvider + rule anti-hallucination trong system prompt.
+- Chatbot baseline van bia so (Q2: "14.000d") -> minh hoa dung diem yeu.
+
+## Thay doi code ho tro
+- src/core/openai_provider.py: them base_url (endpoint local) + stop param.
+- src/agent/agent.py: ReAct loop + anti-hallucination prompt + telemetry moi buoc
+  + verbose live-trace + LANGUAGE rule (Final Answer bat buoc tieng Viet).
+- main.py: ep UTF-8 stdout (Windows), build_llm theo .env.
+
+## Chat REPL - chat.py
+- python chat.py            -> ReAct Agent (verbose=True, hien tool calls truc tiep)
+- python chat.py --chatbot  -> Chatbot baseline
+- Lenh trong phien: /agent, /chatbot, /tools, /quit
+
+## Failure Analysis - 3 hallucination da phat hien & fix (cung 1 pattern)
+Pattern goc: khi Observation KHONG du thong tin de tra loi, model free
+(deepseek-v4-flash-free) bia thay vi dung. Chua bang cach va tai NGUON
+(lam Observation tu day du), khong phai siet prompt.
+1. "M005 muon Introduction to Algorithms" -> thieu tool doc loans.json
+   => them get_loan_status (tool #9).
+2. "M002 muon sach X,Y,Z" sai -> get_member chi tra ma B004 tran
+   => get_member resolve ID -> ten sach.
+3. "Dang Thu Giang muon..., han 2024" -> get_member chi nhan ma ID, hoi
+   bang ten -> NOT_FOUND -> bia => _find_member khop ca ten lan ma.
+
+## Don file thua (cleanup)
+- Xoa src/core/telemetry/ (thu muc trung lap cua src/telemetry/).
+- Xoa cac __pycache__/ (cache bytecode, da co trong .gitignore).
